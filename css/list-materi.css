@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+
+}
+.wrap-list-materi{
+    height: auto;
+
+    overflow-x: hidden;
+}
+ .wrap-right-list-materi {
+    max-height: 500px;
+    overflow-y: auto;
+    scrollbar-width: thin; /* Untuk browser yang mendukung */
+    scrollbar-color: rgba(0, 0, 0, 0.2) transparent; /* Untuk browser yang mendukung */
+ }
+ 
+ /* Gaya scroll untuk browser yang mendukung WebKit seperti Chrome, Safari, Opera */
+ .wrap-right-list-materi::-webkit-scrollbar {
+    width: 8px; /* Lebar scrollbar */
+ }
+ 
+ .wrap-right-list-materi::-webkit-scrollbar-track {
+    background: transparent; /* Warna latar belakang track scrollbar */
+ }
+ 
+ .wrap-right-list-materi::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); /* Warna thumb scrollbar */
+    border-radius: 10px; /* Sudut bulatan thumb scrollbar */
+    border: 2px solid transparent; /* Garis batas thumb scrollbar */
+ }
+ 
+a.active{
+    color: white;
+border-radius: 20px;
+font-weight: 500;
+    background-color: black;
+  }
+
+.image-materi{
+    height: 17vh;
+}
+.wrap-materi{
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+}
+.card-list-materi {
+    background-color: white;
+    height: 40vh;
+    border-radius: 20px;
+    margin-right: 1rem;
+    flex-shrink: 0;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Animasi perubahan */
+}
+
+.card-list-materi:hover {
+    transform: translateY(-10px); /* Atur nilai seberapa jauh naik */
+}
+
+.card-list-materi h6{
+    font-size: 1.2rem;
+}
+.card-list-materi p{
+    font-size: 0.8rem;
+}
+.card-list-materi a{
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+}
+
+.card-list-materi img {
+    border-radius: 20px 20px 0 0;
+}
+.fill-card {
+    padding: 0.6rem;
+    line-height: 10px;
+}
+
+.fill-card p {
+    font-size: 13px;
+    color: rgb(122, 122, 122);
+}
+
+.fill-card span {
+    color: rgb(53, 53, 53);
+}
+.wrap-icon {
+    display: flex;
+}
+
+.wrap-icon i {
+    font-size: 1rem;
+}
+
+.wrap-icon p {
+    font-weight: 500;
+}
+
+.view-materi {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.view-materi a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 2rem;
+    background-color: #03008A;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 1px solid #03008A;
+    transition: .2s ease-in-out;
+}
+.view-materi a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+.wrap-left-list-materi{
+
+    height: 10vh;
+
+}
+.wrap-left-list-materi h6{
+    font-size: 18px;
+}
+.wrap-left-list-materi span{
+    font-size: 15px;
+}
+.fill-category-materi{
+    /* margin-left: 2rem; */
+    margin-top: 2rem;
+}
+.link-category{
+    margin-bottom: 1.5rem;
+}
+.link-category a{
+text-decoration: none;
+color: rgb(177, 177, 177);
+font-size: 1rem;
+font-weight: 500;
+padding: 0.4rem 2rem;
+border-radius: 20px;
+}
+.active-link-materi a{
+    color: white;
+    background-color: #03008A;
+
+}
+.wrap-search{
+    display: flex;
+    gap: 1rem;
+    width: 30%;
+    padding: 0.5rem 1rem;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.wrap-search input{
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+.wrap-all-search{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
+}
+
+@media (max-width: 567px) {
+
+}
+
+/* Misalnya, mengubah ukuran font pada .fill-card untuk tablet */
+@media (max-width: 984px) {
+   left-list-materi{
+
+    height: 10vh;
+}
+.title-left-list{
+    display: none;
+}
+.fill-category-materi {
+    display: flex;
+    width: 350px;
+    overflow-x: auto;
+    margin-top: 0;
+    white-space: nowrap; /* Agar tautan-tautan tetap dalam satu baris */
+  }
+  
+  .link-category {
+    flex: 0 0 auto; /* Item flexbox agar tidak memperbesar untuk mengisi ruang */
+    padding: 10px; /* Atur padding atau margin sesuai kebutuhan */
+  }
+  
+  .link-category a {
+    text-decoration: none; /* Hapus dekorasi default tautan */
+    padding: 5px 10px; /* Atur padding atau margin sesuai kebutuhan */
+    display: inline-block; /* Agar tautan dapat memiliki lebar yang sesuai */
+  }
+  
+
+.link-category a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.2rem 1rem;
+    border-radius: 20px;
+    }
+    .wrap-all-search{
+      text-align: center;
+   margin-top: 2rem;
+   justify-content: center;
+    }
+    
+    .wrap-search{
+        width: 80%;
+    }
+    .wrap-all-search{
+        padding-right: 0;
+    }
+    .wrap-right-list-materi{
+        max-height: 500px;
+        overflow-y: auto;
+        padding-top: 1rem;
+   
+      }
+}

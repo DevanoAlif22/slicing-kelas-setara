@@ -1,0 +1,76 @@
+/* list pemateri */
+.wrap-list-pemateri{
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+    }
+    .view-all a{
+        color: black;
+       
+    }
+    .view-all{
+        text-align: right;
+        margin-top: 3rem;
+    }
+    .card-pemateri{
+    
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        height: 234px;
+    }
+    .fill-card-pemateri p{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .wrap-count-materi p{
+    font-size: 1rem;
+        font-weight: 300;
+    }
+    .wrap-link-view-pemateri{
+        
+        margin-top: 2rem;
+    }
+    .wrap-link-view-pemateri a{
+        text-decoration: none;
+        color: white;
+        padding: 0.5rem 1.5rem;
+        border-radius: 20px;
+        background-color: black;
+        transition: .2s ease-in-out;
+        border: 1px solid black;
+    }
+    .wrap-link-view-pemateri a:hover{
+        color: black;
+        background-color: white;
+    }
+    .card-pemateri{
+        cursor: pointer;
+        transition: transform 0.3s ease; /* Animasi perubahan */
+    
+    }
+    .card-pemateri {
+        transition: transform 0.3s ease; /* Animasi smooth */
+    }
+    
+    .card-pemateri:hover {
+     background-color: rgb(250, 250, 250);
+    }
+    
+   
+    /* Misalnya, mengubah ukuran font pada .fill-card untuk tablet */
+    @media (max-width: 984px) {
+    .card-pemateri{
+    
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        height: 234px;
+        margin-bottom: 2rem;
+    }
+    }
+        @media (max-width: 567px) {
+            .card-pemateri{
+        
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                height: 284px;
+                margin-bottom: 2rem;
+            }
+        }
+        

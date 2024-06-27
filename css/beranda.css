@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+.nav-item {
+    margin-right: 3rem;
+  }
+  .wrap-hero{
+    width: 100%;
+    height: auto;
+    padding-bottom: 3rem;
+    background-image: url('../images/bg-hero.png');
+    background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+  }
+ .nav-item a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 0.3rem 1.5rem;
+    transition: .2s ease-in-out;
+    border-radius: 20px;
+    
+    font-weight: 500;
+ }
+ .nav-item a:hover{
+   
+     color: black;
+    border-radius: 20px;
+    font-weight: 500;
+     background-color: white;
+    
+ }
+a.active{
+    color: black;
+border-radius: 20px;
+font-weight: 500;
+    background-color: white;
+  }
+  .title-hero{
+    margin-top: 6rem;
+  }
+  .title-hero h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: 600;
+  }
+  .desciption{
+    margin-top: 0.5rem;
+  }
+  .desciption p{
+    color: white;
+    width: 90%;
+    font-weight: 300;
+  }
+  .link-materi{
+    margin-top: 3rem;
+  }
+  .link-materi a{
+    color: white;
+    text-decoration: none;
+    padding: 0.6rem 2.5rem;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+  }
+  .title-list{
+    margin-top: 11rem;
+    margin-bottom: 1.5rem;
+  }
+  .title-list h3{
+    color: white;
+    font-weight: 300;
+  }
+  .wrap-card-list {
+    display: flex;
+    overflow-x: scroll; /* Mengaktifkan pengguliran horizontal */
+    gap: 1.5rem; /* Jarak antar kartu */
+    padding-bottom: 20px; /* Menambahkan ruang bawah untuk scrollbar jika diperlukan */
+}
+
+/* Mengubah lebar scrollbar */
+.wrap-card-list::-webkit-scrollbar {
+    height: 8px; /* Atur tinggi scrollbar horizontal */
+}
+
+/* Mengubah warna track scrollbar */
+.wrap-card-list::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+/* Mengubah warna dan bentuk thumb scrollbar */
+.wrap-card-list::-webkit-scrollbar-thumb {
+    background: #f7f7f759; 
+    border-radius: 10px; /* Membuat sudut scrollbar melengkung */
+}
+
+/* Mengubah warna thumb scrollbar saat di-hover */
+.wrap-card-list::-webkit-scrollbar-thumb:hover {
+    background: #f7f7f759; 
+    
+}
+
+.card-list {
+    background-color: white;
+    height: 43vh;
+    width: 250px;
+    border-radius: 20px;
+    margin-right: 1rem; /* Jarak kanan antar kartu */
+    flex-shrink: 0; /* Mencegah kartu untuk menyusut saat diperlukan */
+    overflow: hidden; /* Hindari overflow kelebihan konten pada kartu */
+}
+
+.card-list img {
+    border-radius: 20px 20px 0 0;
+}
+
+.fill-card {
+    padding: 1rem;
+    line-height: 10px;
+}
+
+.fill-card p {
+    font-size: 13px;
+    color: rgb(122, 122, 122);
+}
+
+.fill-card span {
+    color: rgb(53, 53, 53);
+}
+
+.wrap-icon {
+    display: flex;
+}
+
+.wrap-icon i {
+    font-size: 1rem;
+}
+
+.wrap-icon p {
+    font-weight: 500;
+}
+
+.view-materi {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.view-materi a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    border: 1px solid black;
+    transition: .2s ease-in-out;
+}
+.view-materi a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+.navbar-nav{
+    margin-left: 15rem;
+}
+
+/* about */
+.wrap-about{
+    width: 100%;
+    height: auto;
+    padding-bottom: 3rem;
+}
+.title-about {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin-top: 3rem;
+    width: 20%;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid black;
+}
+.title-about h4{
+    font-weight: 600;
+    display: flex;
+    margin: auto;
+text-align: center;
+}
+.logo-in-about{
+    margin-top: 8rem;
+}
+.logo-in-about img{
+    width: 200px;
+}
+.fill-about{
+    margin-top: 1rem;
+}
+.fill-about p{
+    font-size: 14px;
+}
+.link-pemateri{
+    margin-top: 3rem;
+}
+.link-pemateri a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    border: 2px solid black;
+    transition: .2s ease-in-out;
+}
+.link-pemateri a:hover{
+ background-color: black;
+    color: white;
+    
+}
+/* about */
+
+/* list pemateri */
+.wrap-list-pemateri{
+width: 100%;
+height: auto;
+padding-bottom: 2rem;
+}
+.view-all a{
+    color: black;
+   
+}
+.view-all{
+    text-align: right;
+    margin-top: 3rem;
+}
+.card-pemateri{
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 40vh;
+}
+.fill-card-pemateri p{
+    font-size: 12px;
+    font-weight: 300;
+}
+.wrap-count-materi p{
+font-size: 1rem;
+    font-weight: 300;
+}
+.wrap-link-view-pemateri{
+    
+    margin-top: 2rem;
+}
+.wrap-link-view-pemateri a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    background-color: black;
+    transition: .2s ease-in-out;
+    border: 1px solid black;
+}
+.wrap-link-view-pemateri a:hover{
+    color: black;
+    background-color: white;
+}
+/* .card-pemateri img{
+    width: 284px;
+} */
+/* list pemateri */
+/* list materi */
+.image-materi{
+    height: 22vh;
+}
+.wrap-materi{
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+}
+.card-list-materi {
+    background-color: white;
+    height: 50vh;
+    border-radius: 20px;
+    margin-right: 1rem;
+    flex-shrink: 0;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Animasi perubahan */
+}
+
+.card-list-materi:hover {
+    transform: translateY(-20px); /* Atur nilai seberapa jauh naik */
+}
+.card-pemateri{
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Animasi perubahan */
+
+}
+.card-pemateri:hover{
+    transform: translateY(-20px); /* Atur nilai seberapa jauh naik */
+
+}
+.card-list-materi h6{
+    font-size: 1.5rem;
+}
+.card-list-materi p{
+    font-size: 1rem;
+}
+.card-list-materi a{
+    padding: 0.6rem 2rem;
+    font-size: 1.1rem;
+}
+
+.card-list-materi img {
+    border-radius: 20px 20px 0 0;
+}
+
+/* list materi */
+/* pemandu */
+.wrap-register-pemateri{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10rem;
+}
+/* pemandu */
+/* footer */
+.wrap-footer{
+    width: 100%;
+    height: auto;
+    padding-top: 2rem;
+    background-color: black;
+    padding-bottom: 1rem;
+}
+.logo-footer img{
+    width: 170px;
+}
+.des-logo-footer p{
+    color: white;
+    font-size: 12px;
+}
+.fill-sosial-media{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+.fill-sosial-media a{
+    padding: 0.5rem 1rem;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    font-size: 1.6rem;
+}
+.fill-sosial-media a{
+    transition: .2s ease-in-out;
+    border: 1px solid white;
+}
+.fill-sosial-media a:hover{
+    background-color: black;
+    color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* footer */
+/* Misalnya, mengubah ukuran font pada .fill-card untuk ponsel */
+@media (max-width: 567px) {
+    .title-hero{
+        
+        margin-top: 3rem;
+      }
+      .title-hero h1{
+        text-align: center;
+        color: white;
+        font-size: 2.3rem;
+        font-weight: 600;
+      }
+      .desciption{
+        text-align: center;
+        margin-top: 0.5rem;
+      }
+      .desciption p{
+        color: white;
+        width: 90%;
+        font-size: 14px;
+        font-weight: 300;
+      }
+      .link-materi{
+        text-align: center;
+        margin-top: 3rem;
+      }
+      .title-list{
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 1.5rem;
+      }
+      .title-about {
+        display: flex;
+        margin: auto;
+        text-align: center;
+        margin-top: 3rem;
+        width: 50%;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid black;
+    }
+    .logo-in-about{
+        text-align: center;
+        margin-top: 0rem;
+    }
+    .link-pemateri{
+        text-align: center;
+    }
+    .fill-about{
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .maskot{
+        text-align: center;
+    }
+    .maskot video{
+        width: 300px;
+    }
+    .fil-about-register-pemateri p{
+        font-size: 12px;
+    }
+    .logo-footer{
+        text-align: center;
+    }
+    .des-logo-footer{
+        text-align: center;
+    }
+    .wrap-link-view-pemateri a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        padding: 0.3rem 1rem;
+        border-radius: 20px;
+        background-color: black;
+        transition: .2s ease-in-out;
+        border: 1px solid black;
+    }
+    .bg-pemateri{
+        height: 200px;
+    }
+    
+}
+
+/* Misalnya, mengubah ukuran font pada .fill-card untuk tablet */
+@media (max-width: 984px) {
+    .navbar-nav{
+        margin-left: 0;
+        text-align: center;
+    }
+.navbar-nav li{
+    margin-top: 1.5rem;
+}
+   
+}

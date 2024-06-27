@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrap-profile{
+    width: 100%;
+    height: 100vh;
+}
+.wrap-image-profile{
+    height: 50vh;
+    border-radius: 20px;
+}
+.wrap-link-profile{
+    display: flex;
+    gap: 7rem;
+    padding-left: 3rem;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    padding-bottom: 1rem;
+}
+.wrap-link-profile a{
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+    font-weight: 600;
+    padding: 0.3rem 1rem;
+
+}
+a.aktif-link-profill {
+    color: black;
+  border-bottom: 2px solid black;
+}
+.fil-profil{
+    padding: 2rem;
+}
+.username p{
+    color: rgb(129, 129, 129);
+}
+.username{
+    margin-right: 4rem;
+}
+.link-edit-profil a{
+    text-decoration: none;
+    color: white;
+    background-color: #03008A;
+    padding: 0.5rem 2.5rem;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.edit-profile{
+    margin-top: 2rem;
+    text-align: right;
+}
+/* disimpan */
+.image-materi{
+    height: 17vh;
+}
+.wrap-materi{
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+}
+.card-list-materi {
+    background-color: white;
+    height: 40vh;
+    border-radius: 20px;
+    margin-right: 1rem;
+    flex-shrink: 0;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Animasi perubahan */
+}
+
+.card-list-materi:hover {
+    transform: translateY(-10px); /* Atur nilai seberapa jauh naik */
+}
+
+.card-list-materi h6{
+    font-size: 1rem;
+}
+.card-list-materi p{
+    font-size: 0.8rem;
+}
+.card-list-materi a{
+    padding: 0.4rem 1.5rem;
+    font-size: 1rem;
+}
+
+.card-list-materi img {
+    border-radius: 20px 20px 0 0;
+}
+.fill-card {
+    padding: 0.6rem;
+    line-height: 10px;
+}
+
+.fill-card p {
+    font-size: 13px;
+    color: rgb(122, 122, 122);
+}
+
+.fill-card span {
+    color: rgb(53, 53, 53);
+}
+.wrap-icon {
+    display: flex;
+}
+
+.wrap-icon i {
+    font-size: 1rem;
+}
+
+.wrap-icon p {
+    font-weight: 500;
+}
+
+.view-materi {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.view-materi a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    background-color: #03008A;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: 1px solid #03008A;
+    transition: .2s ease-in-out;
+}
+.view-materi a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+.wrap-left-list-materi{
+
+    height: 10vh;
+
+}
+.wrap-left-list-materi h6{
+    font-size: 18px;
+}
+.wrap-left-list-materi span{
+    font-size: 15px;
+}
+.fill-category-materi{
+    /* margin-left: 2rem; */
+    margin-top: 2rem;
+}
+.link-category{
+    margin-bottom: 1.5rem;
+}
+.link-category a{
+text-decoration: none;
+color: rgb(177, 177, 177);
+font-size: 1rem;
+font-weight: 500;
+padding: 0.4rem 2rem;
+border-radius: 20px;
+}
+.active-link-materi a{
+    color: white;
+    background-color: #03008A;
+
+}
+.right-saved{
+    height: 70vh;
+    overflow-x: auto;
+}
+
+/* disimpan */
+.fil-profil{
+    display: flex;
+}
+
+@media (max-width: 567px) {
+.edit-profile{
+   text-align: center;
+}
+.fil-profil{
+    display: block;
+}
+.username{
+    text-align: center;
+}
+.wrap-right-profil{
+    max-width: 340px;
+    overflow-x: auto;
+    /* background-color: #03008A; */
+}
+.wrap-link-profile{
+    display: flex;
+    gap: 2rem;
+    padding-left: 0rem;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    padding-bottom: 1rem;
+}
+.wrap-link-profile a{
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    padding: 0rem 0rem;
+
+}
+a.aktif-link-profill {
+    color: black;
+  border-bottom: 1px solid black;
+}
+.username{
+    margin-right: 0rem;
+}
+}
+
+/* Misalnya, mengubah ukuran font pada .fill-card untuk tablet */
+@media (max-width: 984px) {
+    .wrap-image-profile{
+        display: flex;
+        margin: auto;
+        margin-bottom: 2rem;
+        height: 25vh;
+        width: 50%;
+        border-radius: 20px;
+    }
+}
