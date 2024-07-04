@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font -->
+     <!-- icon BS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+     <!-- icon BS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/dashboard.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="wrap-dashboard">
+      <div class="wrap-sideBar">
+        <div class="logo-dashboard-dekstop">
+          <img src="../images/logo.png" alt="" />
+        </div>
+        <div class="logo-dashboard-hp">
+          <img src="../images/logo-navbar.png" alt="" />
+        </div>
+        <div class="wrap-main-menu">
+          <p>Menu Utama</p>
+        </div>
+        <div class="wrap-menu">
+          <div class="menu mb-3">
+            <a href=""
+              ><i class="fa-solid fa-chart-line me-3"></i><span>Dashboard</span></a
+            >
+          </div>
+          <div class="menu  mb-3">
+            <a href=""
+              ><i class="fa-regular fa-rectangle-list me-3"></i>
+              <span>List Pemateri</span></a
+            >
+          </div>
+          <div class="menu mb-3">
+            <a href=""
+              ><i class="fa-solid fa-list me-3"></i><span>List Materi</span></a
+            >
+          </div>
+          <div class="menu aktif-menu  mb-3">
+            <a href=""
+              ><i class="fa-solid fa-users me-3"></i><span>List Daftar Pemateri</span></a
+            >
+          </div>
+ 
+          <div class="menu mb-3">
+            <a href="" style="color: rgb(255, 94, 94)"
+              ><i class="fa-solid fa-arrow-right-from-bracket me-3"></i></i
+              ><span>Keluar</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="wrap-right-bar">
+        <div class="wrap-navbar">
+          <h5>Selamat Datang, Davano Alif 👋</h5>
+        </div>
+        <div class="wrap-all-list-materi">
+          <div class="list-materi">
+            <div class="container mt-2 ">
+              <h2>Tabel List Daftar Pemateri</h2>
+              <table class="table mt-4">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Username</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Deskripsi</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Davano Alif</td>
+                    <td>davano@example.com</td>
+                    <td>Belajar HTML</td>
+                    <td>
+                      <button type="button" class="btn btn-outline-primary btn-sm">
+                        <i class="fas fa-edit"></i> Edit
+                      </button>
+                      <button type="button" class="btn btn-outline-danger btn-sm">
+                        <i class="fas fa-trash-alt"></i> Delete
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>John Doe</td>
+                    <td>john@example.com</td>
+                    <td>Introduction to CSS</td>
+                    <td>
+                      <button type="button" class="btn btn-outline-primary btn-sm">
+                        <i class="fas fa-edit"></i> Edit
+                      </button>
+                      <button type="button" class="btn btn-outline-danger btn-sm">
+                        <i class="fas fa-trash-alt"></i> Delete
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>John Doe</td>
+                    <td>john@example.com</td>
+                    <td>Introduction to CSS</td>
+                    <td>
+                      <button type="button" class="btn btn-outline-primary btn-sm">
+                        <i class="fas fa-edit"></i> Edit
+                      </button>
+                      <button type="button" class="btn btn-outline-danger btn-sm">
+                        <i class="fas fa-trash-alt"></i> Delete
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>John Doe</td>
+                    <td>john@example.com</td>
+                    <td>Introduction to CSS</td>
+                    <td>
+                      <button type="button" class="btn btn-outline-primary btn-sm">
+                        <i class="fas fa-edit"></i> Edit
+                      </button>
+                      <button type="button" class="btn btn-outline-danger btn-sm">
+                        <i class="fas fa-trash-alt"></i> Delete
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>John Doe</td>
+                    <td>john@example.com</td>
+                    <td>Introduction to CSS</td>
+                    <td>
+                      <button type="button" class="btn btn-outline-primary btn-sm">
+                        <i class="fas fa-edit"></i> Edit
+                      </button>
+                      <button type="button" class="btn btn-outline-danger btn-sm">
+                        <i class="fas fa-trash-alt"></i> Delete
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>John Doe</td>
+                    <td>john@example.com</td>
+                    <td>Introduction to CSS</td>
+                    <td>
+                      <button type="button" class="btn btn-outline-primary btn-sm">
+                        <i class="fas fa-edit"></i> Edit
+                      </button>
+                      <button type="button" class="btn btn-outline-danger btn-sm">
+                        <i class="fas fa-trash-alt"></i> Delete
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>John Doe</td>
+                    <td>john@example.com</td>
+                    <td>Introduction to CSS</td>
+                    <td>
+                      <button type="button" class="btn btn-outline-primary btn-sm">
+                        <i class="fas fa-edit"></i> Edit
+                      </button>
+                      <button type="button" class="btn btn-outline-danger btn-sm">
+                        <i class="fas fa-trash-alt"></i> Delete
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>John Doe</td>
+                    <td>john@example.com</td>
+                    <td>Introduction to CSS</td>
+                    <td>
+                      <button type="button" class="btn btn-outline-primary btn-sm">
+                        <i class="fas fa-edit"></i> Edit
+                      </button>
+                      <button type="button" class="btn btn-outline-danger btn-sm">
+                        <i class="fas fa-trash-alt"></i> Delete
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>John Doe</td>
+                    <td>john@example.com</td>
+                    <td>Introduction to CSS</td>
+                    <td>
+                      <button type="button" class="btn btn-outline-primary btn-sm">
+                        <i class="fas fa-edit"></i> Edit
+                      </button>
+                      <button type="button" class="btn btn-outline-danger btn-sm">
+                        <i class="fas fa-trash-alt"></i> Delete
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>John Doe</td>
+                    <td>john@example.com</td>
+                    <td>Introduction to CSS</td>
+                    <td>
+                      <button type="button" class="btn btn-outline-primary btn-sm">
+                        <i class="fas fa-edit"></i> Edit
+                      </button>
+                      <button type="button" class="btn btn-outline-danger btn-sm">
+                        <i class="fas fa-trash-alt"></i> Delete
+                      </button>
+                    </td>
+                  </tr>
+                  <!-- Tambahkan baris lainnya sesuai kebutuhan -->
+                </tbody>
+              </table>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

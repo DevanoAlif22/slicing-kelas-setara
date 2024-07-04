@@ -88,6 +88,37 @@
     border-radius: 10px;
     cursor: pointer;
   }
+  .wrap-card-count{
+    height: 27vh;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+  }
+  .wrap-card-count:hover{
+color: white;
+    background-color: #191F2F;
+ 
+  }
+  .wrap-fill-count{
+    padding: 1.5rem 2rem;
+
+  }
+  .title-count{
+    margin-top: 1.5rem;
+ 
+  }
+  .title-count p{
+    font-size: 0.8rem;
+  }
+  .title-count h5{
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  .icon-count{
+    margin-top: 2rem;
+  }
 @media (max-width: 954px) {
  .menu span{
     display: none;
