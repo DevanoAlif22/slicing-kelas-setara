@@ -31,9 +31,6 @@
     <title>Profil</title>
   </head>
   <body>
-    <div class="maskot-kelas-setara">
-      <video src="../images/maskot-about.mp4" loop autoplay muted></video>
-    </div>
     <div class="wrap-profile">
       <nav class="navbar navbar-expand-lg navbar-light bg-transparant pt-4">
         <div class="container">
@@ -104,20 +101,55 @@
                 <a href="">Diselesaikan</a>
               </div>
             </div>
-            <div class="edit-profile">
-              <div class="link-edit-profil">
-                <a href="">Edit Profil</a>
-              </div>
-            </div>
-            <div class="fil-profil">
-              <div class="username">
-                <h4>Username</h4>
-                <p>Davano Alif Ramadhan</p>
-              </div>
-              <div class="username">
-                <h4>Email</h4>
-                <p>@DavanoRamadhan</p>
-              </div>
+            <div class="wrap-form-edit-profile">
+              <form action="">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form-group mb-4">
+                      <label for="username" class="form-label">Username</label>
+                      <input
+                        type="text"
+                        class="form-control w-100"
+                        id="username"
+                        placeholder="Masukan Username Anda"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group mb-4">
+                      <label for="email" class="form-label">Email</label>
+                      <input
+                        type="email"
+                        class="form-control w-100"
+                        id="email"
+                        placeholder="Masukan Email Anda"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <label for="email" class="form-label"
+                        >Upload Gambar</label
+                      >
+                      <input
+                        type="file"
+                        class="form-control w-100"
+                        id="email"
+                        placeholder="Masukan Email Anda"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mt-4 text-center">
+                  <button
+                    class="btn w-50"
+                    style="background-color: #03008a; color: white"
+                  >
+                    Edit Profile
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>

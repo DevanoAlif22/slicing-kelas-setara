@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.wrap-dashboard{
+    width: 100%;
+    height: 100vh;
+}
+.wrap-sideBar{
+    background-color: #191F2F;
+    height: 100vh;
+    width: 20%;
+}
+.logo-dashboard-dekstop{
+    padding-top: 2rem;
+    text-align: center;
+}
+.logo-dashboard-dekstop img{
+    width: 155px;
+}
+.wrap-main-menu{
+    padding: 1rem;
+}
+.wrap-main-menu p{
+    font-weight: 300;
+    color: white;
+   font-size: 15px;
+}
+.wrap-menu a{
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: none;
+    padding-left: 1rem;
+}
+.menu{
+    padding: 1rem 1rem;
+}
+.aktif-menu {
+    background-color: #686C77;
+
+}
+.wrap-dashboard{
+    display: flex;
+    background-color: rgb(238, 238, 238);
+}
+.wrap-navbar{
+    background-color: white;
+    width: 100%;
+    height: 8vh;
+    padding: 0.6rem 2rem;
+}
+.wrap-right-bar{
+    width: 80%;
+}
+.list-materi{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    height: 85vh;
+    overflow-y: auto;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+}
+.wrap-all-list-materi{
+    padding: 0 2rem;
+    
+}
+.logo-dashboard-desktop {
+    display: block; /* Menampilkan elemen */
+  }
+
+  /* CSS untuk logo perangkat seluler */
+  .logo-dashboard-hp {
+    display: none; /* Menyembunyikan elemen */
+  }
+  .next{
+    justify-content: flex-end;
+    display: flex;
+    text-align: center;
+  }
+  .next p{
+    background-color: #191F2F;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    width: 20%;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+@media (max-width: 954px) {
+ .menu span{
+    display: none;
+ }
+ .wrap-navbar{
+    
+    padding-top: 1.2rem;
+ }
+ .wrap-navbar h5{
+    font-size: 0.9rem;
+ }
+ .wrap-main-menu{
+    display: none;
+ }
+ .logo-dashboard{
+    margin-bottom: 1rem;
+ }
+ .wrap-all-list-materi {
+    width: 100%; /* Ubah dari 100vh menjadi 100% */
+    overflow-x: auto; /* Aktifkan scroll horizontal jika konten melebihi lebar */
+    white-space: nowrap; /* Mengatur agar konten tidak melipat baris */
+  }
+  .list-materi {
+    background-color: white;
+    height: 85vh;
+    overflow-y: auto; /* Memungkinkan scroll vertikal jika konten melebihi tinggi */
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    max-width: 100%; /* Ubah dari 100vh menjadi 100% */
+  }
+   .logo-dashboard-dekstop img {
+        display: none; /* Menyembunyikan elemen di perangkat seluler */
+      }
+
+      .logo-dashboard-hp {
+        text-align: center;
+        margin-bottom: 1rem;
+        display: block; /* Menampilkan elemen di perangkat seluler */
+      }
+      .logo-dashboard-hp img {
+       width: 50px;
+      }
+      .list-materi h2{
+        font-size: 1rem;
+      }
+      .next p{
+        background-color: #191F2F;
+        color: white;
+        padding: 0.5rem 1.5rem;
+        width: 100%;
+        font-size: 0.7rem;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      .next{
+        display: block;
+      }
+    }
