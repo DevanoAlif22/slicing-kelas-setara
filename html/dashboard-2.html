@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon BS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/dashboard.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="wrap-dashboard">
+      <div class="wrap-sideBar">
+        <div class="logo-dashboard-dekstop">
+          <img src="../images/logo.png" alt="Logo Desktop" />
+        </div>
+        <div class="logo-dashboard-hp">
+          <img src="../images/logo-navbar.png" alt="Logo HP" />
+        </div>
+        <div class="wrap-main-menu">
+          <p>Menu Utama</p>
+        </div>
+        <div class="wrap-menu">
+          <div class="menu">
+            <div class="accordion" id="accordionExample1">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne1">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne1"
+                    aria-expanded="false"
+                    aria-controls="collapseOne1"
+                    style="
+                      background-color: transparent;
+                      color: white;
+                      outline: none;
+                    "
+                  >
+                    <span><i class="fa-solid fa-users me-4"></i></span>Pengguna
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne1"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingOne1"
+                  data-bs-parent="#accordionExample1"
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li><a href="">Daftar Pengguna</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu">
+            <div class="accordion" id="accordionExample3">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne3">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne3"
+                    aria-expanded="false"
+                    aria-controls="collapseOne3"
+                    style="
+                      background-color: transparent;
+                      color: white;
+                      outline: none;
+                    "
+                  >
+                    <span><i class="fa-solid fa-user-pen me-3"></i></span
+                    >Pemateri
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne3"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingOne3"
+                  data-bs-parent="#accordionExample3"
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li><a href="">Form Pemateri</a></li>
+                      <li><a href="">Bayar Materi</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu">
+            <div class="accordion" id="accordionExample2">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne2">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne2"
+                    aria-expanded="false"
+                    aria-controls="collapseOne2"
+                    style="
+                      background-color: transparent;
+                      color: white;
+                      outline: none;
+                    "
+                  >
+                    <span
+                      ><i class="fa-regular fa-rectangle-list me-3"></i> </span
+                    >Materi
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne2"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingOne2"
+                  data-bs-parent="#accordionExample2"
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li><a href="">Daftar Materi</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu mb-3">
+            <a href="#" style="color: rgb(255, 94, 94)"
+              ><i class="fa-solid fa-arrow-right-from-bracket me-3"></i
+              ><span>Keluar</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="wrap-right-bar">
+        <div class="wrap-navbar">
+          <h5>Selamat Datang, Davano Alif 👋</h5>
+        </div>
+        <div class="wrap-all-list-materi">
+          <div class="container">
+            <div class="row mt-5">
+              <div class="col-4">
+                <div class="wrap-card-count">
+                  <div class="wrap-fill-count">
+                    <div
+                      class="row"
+                      style="border-bottom: 1px solid rgb(221, 221, 221)"
+                    >
+                      <div class="col-9">
+                        <div class="title-count">
+                          <h5>Jumlah Pemateri</h5>
+                          <p>500 Pemateri</p>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="icon-count">
+                          <h3>
+                            <i class="fa-regular fa-rectangle-list me-3"></i>
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="wrap-card-count">
+                  <div class="wrap-fill-count">
+                    <div
+                      class="row"
+                      style="border-bottom: 1px solid rgb(221, 221, 221)"
+                    >
+                      <div class="col-9">
+                        <div class="title-count">
+                          <h5>Jumlah Materi</h5>
+                          <p>500 Materi</p>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="icon-count">
+                          <h3><i class="fa-solid fa-list me-3"></i></h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="wrap-card-count">
+                  <div class="wrap-fill-count">
+                    <div
+                      class="row"
+                      style="border-bottom: 1px solid rgb(221, 221, 221)"
+                    >
+                      <div class="col-9">
+                        <div class="title-count">
+                          <h5>Jumlah Daftar Pemateri</h5>
+                          <p>500 Pemateri</p>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="icon-count">
+                          <h3><i class="fa-solid fa-users me-3"></i></h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

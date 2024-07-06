@@ -28,6 +28,16 @@ font-weight: 500;
  .navbar-nav{
     margin-left: 15rem;
 }
+.maskot-kelas-setara video{
+    width: 110px;
+    border-radius: 50%;
+}
+.maskot-kelas-setara{
+    position: fixed;
+    right: 80px;
+    bottom: 30px;
+    z-index: 999;
+}
 @media (max-width: 984px) {
     .navbar-nav{
         margin-left: 0;
